@@ -1,10 +1,8 @@
 +++
-date = '2025-02-11T15:37:38+07:00'
+date = '2025-02-13T23:04:36+07:00'
 title = 'Belajar Coding'
 +++
 
-##              ٱلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّٰهِ وَبَرَكَاتُهُ
-## "Semoga Allah melimpahkan keselamatan, rahmat, dan keberkahan-Nya"
 
 Hallo semuanya disini saya ingin memberikan sebuah tutorial mempelajari pemrogramman
 bahasa python dengan mudah diawali dari pembuatan teks sederhana.
@@ -12,8 +10,6 @@ bahasa python dengan mudah diawali dari pembuatan teks sederhana.
 Untuk dapat menggunakan bahasa pemrogramman python ini tentu saja teman teman perlu menggunakan sebuah terminal untuk menjalankan program Python kalian. Jika teman teman menggunakan device android sebagai media untuk belajar, maka teman teman bisa menggunakan [Google Colab](https://colab.research.google.com/).
 
 Langkah pertama yang harus kalian lakukan yaitu membuat file baru untuk melakukan pemrogramman, dengan cara klik new notebook.
-
-<img src = "content/posts/gambat.png">
 
 setelah teman teman membuat file nya, teman teman bisa menuliskan **print** untuk perintah mencetak teks.
 
