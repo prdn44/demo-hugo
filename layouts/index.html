@@ -9,11 +9,11 @@
   {{ $section_count := len $section }}
 
   {{ if and ($show_recent_posts) (ge $section_count 1) }}
-  <div style="position: relative; top: -45px; left: 0px;">
+  <div style="position: relative; top: -30px; left: 0px;">
    <center><h1> لسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّٰهِ وَبَرَكَاتُهُ </h1></center>
    <center> Semoga Allah melimpahkan keselamatan, rahmat, dan keberkahan-Nya </center>
   </div>
-    <div style="position: relative; top: -05px; left: 100px;">
+    <div style="position: relative; top: -05px; left: 25px;">
       {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
 
       <section class="w-100 mw8">
@@ -44,7 +44,7 @@
   {{ end }}
   <form action="/submit-note" method="POST">
     <p style="padding:10px; margin:15px;"><label for="note">Tulis Catatan Anda:</label><br></p>
-    <p style="padding:10px; margin:15px;"><textarea id="note" name="note" rows="4" cols="50"></textarea><br><br>
+    <p style="padding:10px; margin:15px;"><textarea id="note" name="note" rows="4" cols="40"></textarea><br><br>
     <input type="submit" value="Kirim Catatan"></p>
   </form>
 {{ end }}
